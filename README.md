@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ckachok.github.io/rsschool-cv/cv
