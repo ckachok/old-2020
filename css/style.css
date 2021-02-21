@@ -15,7 +15,7 @@
 .header {
     position: sticky;
     top: 0;
-    padding: 30px 70px;
+    padding: 11px 70px;
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -24,7 +24,7 @@
 }
 
 .header-resume {
-    margin: 0 65px;
+    margin: 0px 260px 0 0;
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
@@ -287,7 +287,7 @@
 .section-contacts {
     padding-top: 51px;
     background: white;
-    height: 646px;
+    height: 645px;
 }
 
 .section-title--contacts {
@@ -307,7 +307,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 28px 0 28px;
+    margin: 20px 0;
 }
 
 .section-contacts__form-item {
@@ -383,5 +383,62 @@ textarea:required:valid {
     font-size: 1.25em;
     text-align: center;
     padding: 0 50px;
-    margin: 40px 0;
+}
+
+.footer {
+    height: 251px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.footer__connection-text {
+    margin: 40px 0 25px;
+    color: white;
+}
+
+.footer__copyright-text {
+    margin: 65px 0;
+    color: white;
+}
+
+.footer__link {
+    margin: 0 15px 0 0;
+    text-decoration: none;
+}
+
+.footer__social {
+    -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.footer__social:hover {
+    -webkit-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.2);
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+}
+
+.footer-navbar__item {
+    margin: 0 10px;
+    text-decoration: none;
+    opacity: 0.6;
+    color: white;
+}
+
+.footer-navbar__item:hover {
+    border-bottom: 1px solid white;
+    opacity: 1;
+} 
+
+.footer-logo-own {
+    margin: 15px 0 0 260px;
 }
