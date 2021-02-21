@@ -1,0 +1,444 @@
+.body {
+    position: relative;
+    box-sizing: content-box;
+    width: 1400px;
+    height: auto;
+    min-height: 100%;
+    margin: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background: #e7e5e5;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    padding: 11px 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    background: white;  
+}
+
+.header-resume {
+    margin: 0px 260px 0 0;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #e5ab7b;
+}
+
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-navbar__item {
+    margin: 0 20px;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.6;
+    color: black;
+}
+
+.header-navbar__item:hover {
+    border-bottom: 2px solid black;
+    opacity: 1;
+} 
+
+.cv__info {
+    display: flex;
+    justify-content: flex-start;
+    height: 580px;
+}
+
+.cv__avatar {
+    height: 500px;
+    margin: 20px 80px 0 0;
+    border: 20px solid white;
+}
+
+.cv__full-name {
+    margin: 220px 0 0 0;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.cv__my-main-goal {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.section-about {
+    height: 725px;
+    background: white;
+    padding-top: 51px
+}
+
+.section-title {
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    padding: 9px 25px;
+    margin: 0;
+    color: black;
+    background-color: #eed7ad;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: 3px solid white;
+    opacity: 0.6;
+}
+
+.section-title--about {
+    left: 532px;
+}
+
+.section-about__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px 15px;
+}
+
+.section-about__column {
+    width: 380px;
+}   
+
+.section-about__subtitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.section-about__list {
+    color: #6a737d;
+    border-left: 0.25em solid #e7ac80;
+    border-right: 0.25em solid #e7ac80;
+    font-size: 1.25em;
+}
+
+.section-about__image {
+    padding: 0 546px;
+}
+
+.section-skills {
+    background: url(../images/section-skills.jpg);
+    height: 694px;
+    padding-top: 51px
+}
+
+.section-title--skills {
+    left: 629px;
+}
+
+.section-skill__container {
+    padding: 80px 700px 80px 100px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.section-skill__list {
+    list-style: none;
+}
+
+.section-skill__list-item {
+    padding: 20px 0;
+}
+
+.section-skill__progress-bar {
+    height: 6px;
+    display: block;
+    background-color: #a39896;
+}
+
+.section-skill__progress-bar--completed {
+    height: 6px;
+    display: block;
+    background-color: #fefaf9;
+    animation: a 2s ease-in-out forwards;
+}
+
+@keyframes a {
+    from{
+        width:0;
+    }
+}
+
+.completed-html {
+    width: 45%;
+}
+
+.completed-css {
+    width: 33%;
+}
+
+.completed-js {
+    width: 15%;
+}
+
+.completed-figma {
+    width: 20%;
+}
+
+.completed-git {
+    width: 30%;
+}
+
+.section-code {
+    background: white;
+    padding-top: 51px;
+    height: 500px;
+}
+
+.section-title--code {
+    left: 721px;
+}
+
+.section-code__subtitle, .section-experience__subtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    margin: 25px 0 15px;
+}
+
+.section-code__container {
+    height: 325px;
+    overflow: auto;
+    margin: 0 191px;
+}
+
+.section-experience {
+    padding-top: 51px;
+    height: 414px;
+    background: url(../images/section-experience.jpg);
+}
+
+.section-title--experience {
+    left: 807px;
+}
+
+.section-experience__container {
+    padding: 23px 324px 0 265px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: #e7ac80;
+}
+
+.section-experience__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-experience__link {
+    text-decoration: none;
+    color: #6a737d;
+}
+
+.section-education {
+    padding-top: 51px;
+    background: white;
+    height: 500px;
+}
+
+.section-title--education {
+    left: 944px
+}
+
+.section-education__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    font-size: 1.25em;
+}
+
+.section-english {
+    padding-top: 51px;
+    background: #e7e5e5;
+}
+
+.section-title--english {
+    left: 1082px
+}
+
+.section-english__container {
+    display: flex;
+    align-items: center;
+    padding: 30px 80px;
+    font-size: 1.25em;
+}
+
+.section-english__link {
+    text-decoration: none;
+    padding: 0 0 0 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e5ab7b;
+}
+
+.section-contacts {
+    padding-top: 51px;
+    background: white;
+    height: 645px;
+}
+
+.section-title--contacts {
+    left: 1193px;
+}
+
+.section-contacts__container {
+    padding: 30px 400px;
+}
+
+.section-contacts__text {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.section-contacts__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.section-contacts__form-item {
+    background: #f4e6cd;
+    font-size: 1em;
+    padding: 15px 20px 15px;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: all 0.3s;
+    margin: 10px 15px;
+}
+
+.section-contacts__form-item:hover {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.section-contacts__form-item:focus {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+input[type="text"]:required:valid,
+input[type="email"]:required:valid,
+textarea:required:valid {
+    background-color: #ffffff;
+    border: 1px solid #f4e6cd;
+}
+
+.form-item--your-name {
+    width: 145px;
+}
+
+.form-item--your-email {
+    width: 300px;
+}
+
+.form-item--your-message {
+    width: 517px;
+    height: 110px;
+    resize: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14.5px;
+}
+
+.section-contacts__form-button {
+    padding: 15px 77px;
+    margin: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    letter-spacing: 1.6px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #34547a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.section-contacts__form-button:hover {
+    background-color: #f4e6cd;
+    color: black;
+}
+
+.section-contacts__form-button:active {
+    background-color:#253b56;
+}
+
+.section-contacts__list {
+    list-style: none;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.footer {
+    height: 251px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.footer__connection-text {
+    margin: 40px 0 25px;
+    color: white;
+}
+
+.footer__copyright-text {
+    margin: 65px 0;
+    color: white;
+}
+
+.footer__link {
+    margin: 0 15px 0 0;
+    text-decoration: none;
+}
+
+.footer__social {
+    -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, background-color 0.5s, transform 0.5s;
+}
+
+.footer__social:hover {
+    -webkit-transform: rotate(360deg) scale(1.5);
+    transform: rotate(360deg) scale(1.2);
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
+    padding: 40px 0;
+    list-style: none;
+}
+
+.footer-navbar__item {
+    margin: 0 10px;
+    text-decoration: none;
+    opacity: 0.6;
+    color: white;
+}
+
+.footer-navbar__item:hover {
+    border-bottom: 1px solid white;
+    opacity: 1;
+} 
+
+.footer-logo-own {
+    margin: 15px 0 0 260px;
+}
