@@ -212,7 +212,7 @@
 
 .section-code__container {
     height: 325px;
-    overflow: overlay;
+    overflow: auto;
     margin: 0 191px;
 }
 
