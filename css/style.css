@@ -442,3 +442,14 @@ textarea:required:valid {
 .footer-logo-own {
     margin: 15px 0 0 260px;
 }
+
+.footer-logo-rs {
+    max-width: 90px;
+    max-height: 108px;
+    margin: 0 0 0 376px;
+    opacity: 0.6;    
+}
+
+.footer-logo-rs:hover {
+    opacity: 1;
+}
